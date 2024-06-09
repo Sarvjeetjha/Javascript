@@ -18,3 +18,5 @@ console.table([accountId,accountName,accountType,accountCity,accountDetails])
 
 
 // Note :- IN current time we use let & const to declare a variable
+
+//prefer not to use var ,because of issue in block scope and function scope
