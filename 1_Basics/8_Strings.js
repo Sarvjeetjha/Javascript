@@ -21,7 +21,11 @@ console.log(gameName.toLocaleUpperCase());
 let newString=gameName.substring(0,5)
 console.log(newString);
 
+
  newString=gameName.slice(0,5) //we can pass negative value 
  console.log(newString);
+ 
  newString=gameName.slice(-4,2) //we can pass negative value 
+ console.log(newString);
+ newString=gameName.slice(0,2)  
 console.log(newString);
